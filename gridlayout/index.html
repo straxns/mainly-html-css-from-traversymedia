@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-column-gap: 1em;
+            grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda iste voluptas veniam doloribus reprehenderit, magnam sint corporis beatae soluta vitae minima laboriosam sit deleniti dolor vero ea perferendis neque quam harum totam culpa, eaque maiores nostrum? Nesciunt, error ea! Neque a voluptates laboriosam corrupti esse sit, provident molestias qui laudantium magni culpa ad dolorum blanditiis? Voluptates adipisci delectus impedit non eveniet culpa ratione, exercitationem, minus rem, modi quas maxime id quidem ex minima similique nisi commodi sit corrupti veniam?
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur accusantium praesentium dignissimos modi, eligendi excepturi quaerat autem quae delectus reiciendis, soluta distinctio. Officiis ut aut, voluptatibus reiciendis obcaecati quaerat?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda iste voluptas veniam doloribus reprehenderit, magnam sint corporis beatae soluta vitae minima laboriosam sit deleniti dolor vero ea perferendis neque quam harum totam culpa, eaque maiores nostrum? Nesciunt, error ea! Neque a voluptates laboriosam corrupti esse sit, provident molestias qui laudantium magni culpa ad dolorum blanditiis? Voluptates adipisci delectus impedit non eveniet culpa ratione, exercitationem, minus rem, modi quas maxime id quidem ex minima similique nisi commodi sit corrupti veniam?
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur accusantium praesentium dignissimos modi, eligendi excepturi quaerat autem quae delectus reiciendis, soluta distinctio. Officiis ut aut, voluptatibus reiciendis obcaecati quaerat?
+        </div>
+    </div>
+</body>
+</html>
